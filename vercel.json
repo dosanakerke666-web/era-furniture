@@ -1,0 +1,16 @@
+{
+  "services": {
+    "era-group-spec": {
+      "root": "era-group-spec"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "type": "service",
+        "service": "era-group-spec"
+      }
+    }
+  ]
+}
